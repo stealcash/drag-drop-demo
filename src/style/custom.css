@@ -1,0 +1,78 @@
+.column-title {
+    background-color: #2c3440;
+    font-size: 15px;
+    color: white;
+    line-height: 35px;
+}
+
+.left-menu-collapse {
+    flex: 0 0 auto;
+    width: 50px !important;
+}
+
+.accordion-button {
+    padding: 10px !important;
+}
+
+.accordion-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #858585;
+}
+
+.accordion-header label {
+    font-size: 15px;
+}
+
+.accordion-header button {
+    width: 30px;
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.label-text {
+    border: 1px solid #8d8d8d;
+    border-radius: 4px;
+    height: auto;
+    font-size: 12px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.middle-container {
+    background: #636363;
+}
+
+.md-no-left {
+    width: calc(83.333% - 50px) !important;
+}
+
+.room-container {
+    height: calc(100% - 35px);
+    position: relative;
+    width: 100%;
+}
+
+.room-obj {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+}
+
+.label-obj {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.addlabel-btn {
+    background: #35609f;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
