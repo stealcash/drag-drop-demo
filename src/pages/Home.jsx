@@ -136,7 +136,7 @@ const Home = () => {
             </div>
 
 
-            <div className={`col-md-8 middle-container px-0 ${showLeftMenu ? "" : "md-no-left"}`}>
+            <div className={`col-md-8 middle-container px-0 ${showLeftMenu ? "" : "md-no-left"}`} style={{height:"500px"}}>
               <div className="column-title">
                 Middle Container
               </div>
